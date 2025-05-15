@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minha Loja</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo (1)-Photoroom.png" alt="Logo" width="40" height="40" class="d-inline-block align-top me-2" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+          <button class="btn btn-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide my-4 container" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner 1.png" class="d-block w-100" alt="Banner 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner 2.png" class="d-block w-100" alt="Banner 2" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- Produtos -->
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="img/p1 (1).png" class="card-img-top" alt="Produto 1" />
+          <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Produtos de alta qualidade, perfeitos para suas necessidades diárias. Durável e eficiente, ideal para uso prolongado.</p>
+            <a href="#" class="btn btn-primary w-100 mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="img/p2 (1).png" class="card-img-top" alt="Produto 2" />
+          <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Produtos exclusivos com design inovador. Oferece excelente desempenho e é ideal para quem busca praticidade e estilo.</p>
+            <a href="#" class="btn btn-primary w-100 mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="img/p2.png" class="card-img-top" alt="Produto 3" />
+          <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Produtos versáteis, ideal para quem procura qualidade e funcionalidade. Compacto e fácil de usar no dia a dia.</p>
+            <a href="#" class="btn btn-primary w-100 mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Minha Loja. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

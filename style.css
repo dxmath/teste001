@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.navbar {
+  background-color: #6A0DAD;
+  border-bottom: 2px solid #6A0DAD;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Logo da navbar */
+.navbar-brand img {
+  max-height: 50px;  /* Define um limite máximo para a altura da logo */
+  height: auto;     
+  width: auto;       
+}
+
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  background-color: #000; /* ou cor de fundo parecida com a imagem */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+
+
+.product-card {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #6A0DAD;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #5c0ba8;
+}
+
+.text-success {
+  color: #28a745;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
